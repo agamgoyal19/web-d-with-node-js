@@ -1,30 +1,89 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  dl{
-    background:lemonchiffon;
-    width:300px;
-    margin-left: 525px;
-  }
-  
-  dt{
-    background:darkgoldenrod;
-    color: white;
-    margin: 0;
-    padding: 2px 0 0 5px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: -1px;
-  }
-  
-  dd {
-    font: bold 20px/45px Helvetica, Arial, sans-serif;
-    margin: 0;
-    padding: 0 0 0 12px;
-    white-space: nowrap;
-  }
-  a{
-      margin-left: 450px;
-      font-size: 100px;
-  }
+body{
+    background-color: black;
+    height: 1170px;
+}
+nav{
+    margin-top: 50px;
+    width:800px;
+    height:50px;
+    margin-left: 270px;
+    border-radius: 2%;
+}
+.card1{
+    width:800px;
+    margin-left: 270px;
+    margin-top: 20px;
+    height:250px;
+    display: flex;
+    border-radius: 2%;
+}
+.btn{
+    border-radius: 5%;
+}
+.card1 a:nth-of-type(1){
+    font-size: 50px;
+}
+
+.card1 a{
+    font-size: 20px;
+}
+.card1 .div1 img{
+    width:250px;
+    height:250px;
+    border-top-left-radius: 2%;
+    border-bottom-left-radius: 2%;
+}
+.div2{
+    margin-left: 10px;
+}
+.card{
+    width:800px;
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 2%;
+}
+.div3{
+    width:700px;
+    margin-left: 50px;
+}
+.div3 a:nth-of-type(1){
+    font-size: 35px;
+}
+.div3 a{
+    font-size: 18px;
+}
+.card2{
+    width:800px;
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 2%;
+}
+.div4{
+    width:700px;
+    margin-left: 50px;
+}
+.div4 a:nth-of-type(1){
+    font-size: 35px;
+}
+.div4 ul li{
+    font-size: 18px;
+}
+.card3{
+    width:800px;
+    margin-left: 270px;
+    margin-top: 20px;
+    height: 250px;
+    border-radius: 2%;
+}
+.div5{
+    width:700px;
+    margin-left: 50px;
+}
+.div5 a:nth-of-type(1){
+    font-size: 35px;
+}
+.div5 ul li{
+    font-size: 18px;
+}
